@@ -1,0 +1,153 @@
+/* Reset default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set page margins and dimensions */
+body {
+  margin: 2cm; /* Adjust margin size as needed */
+}
+
+/* Set font styles */
+body {
+  font-family: "Times New Roman", serif; /* Adjust font as per style guide */
+  font-size: 12pt; /* Adjust font size as per style guide */
+  line-height: 1.5; /* Adjust line height as per style guide */
+}
+
+/* Set heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64pt;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+/* Set paragraph and text styles */
+p {
+  margin-bottom: 1em;
+  padding-left: 10%;
+  padding-right: 10%;
+  word-wrap: break-word; 
+}
+
+
+/* Set list styles */
+ol,
+ul {
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+/* Set table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+/* Set citation and reference styles */
+.citation {
+  font-style: italic;
+}
+
+.references {
+  margin-top: 1em;
+}
+
+.references ol,
+.references ul {
+  margin-left: 0;
+  list-style: none;
+}
+
+.references li {
+  margin-bottom: 0.5em;
+}
+
+
+
+nav {
+  position: fixed;
+  top: 160px; 
+  left: 0;
+  width: 140px; 
+  height: auto; 
+  background-color: #808080; 
+  margin: 16px; 
+  margin-left: 0;
+  box-sizing: border-box;
+  border: collapse; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 16px;
+  padding-left: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav ul li a {
+  display:; 
+  padding: 8px;
+  text-decoration: none;
+  color: #fff; 
+  background-color: #404040;
+  border: 1px solid #ddd; 
+}
+
+main {
+  padding: 20px 12% 20px 12%; 
+}
+
+header {
+  items-align: center;
+  text-align: center;
+}
+
+footer {
+  items-align: center;
+  text-align: center;
+}
